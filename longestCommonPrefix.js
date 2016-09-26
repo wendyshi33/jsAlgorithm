@@ -16,8 +16,8 @@ var longestCommongPrefix = function(strs) {
 
 		if(strs[j].length === i) {
 			return result;
+			}
 		}
-	}
 
 	result = result + curChar;
 
